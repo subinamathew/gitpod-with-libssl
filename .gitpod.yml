@@ -1,0 +1,4 @@
+tasks:
+  - name: build docker file
+    init: docker pull gitpod/workspace-base
+    command: docker build -t subinamathew/gitpod-workspace-base-libssl:latest .
